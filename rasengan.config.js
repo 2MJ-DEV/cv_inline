@@ -1,6 +1,5 @@
 import { defineConfig } from 'rasengan';
 import tailwindcss from '@tailwindcss/vite';
-import { rasengan } from 'rasengan/plugin';
 import { rasengan } from "rasengan/plugin";
 import { configure } from "@rasenganjs/vercel";
 
