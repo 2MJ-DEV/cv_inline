@@ -3,9 +3,9 @@ import { Outlet } from 'rasengan';
 
 const AppLayout = () => {
   return (
-    <React.Fragment>
+    <div>
       <Outlet />
-    </React.Fragment>
+    </div>
   );
 };
 
