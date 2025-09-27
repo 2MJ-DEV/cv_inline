@@ -13,23 +13,20 @@ const Navbar = () => {
 
                 {/* Liens */}
                 <ul className="flex gap-5">
-                    <li className="hover:text-zinc-600 duration-300">
-                        <Link to="/">Profile</Link>
+                    <li className="hover:text-blue-700 underline-offset-4 hover:underline duration-300">
+                        <Link to="/Projects">Projects</Link>
                     </li>
-                    <li className="hover:text-zinc-600 duration-300">
-                        <Link to="/projects">Projects</Link>
+                    <li className="hover:text-blue-700 underline-offset-4 hover:underline duration-300">
+                        <Link to="/Experience">Experience</Link>
                     </li>
-                    <li className="hover:text-zinc-600 duration-300">
-                        <Link to="/experience">Experience</Link>
-                    </li>
-                    <li className="hover:text-zinc-600 duration-300">
-                        <Link to="/education">Education</Link>
+                    <li className="hover:text-blue-700 underline-offset-4 hover:underline duration-300">
+                        <Link to="/Education">Education</Link>
                     </li>
                 </ul>
 
                 {/* Bouton ou actions */}
                 <div className="navbar-actions">
-                    <button className="bg-black text-white py-2 px-5 rounded-md hover:bg-zinc-700 duration-300 cursor-pointer">Contact Me</button>
+                    <button className="bg-blue-700 text-white py-2 px-5 rounded-md hover:bg-blue-600 duration-300 cursor-pointer">Contact Me</button>
                 </div>
             </nav>
         </header>
