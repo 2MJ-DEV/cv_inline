@@ -20,8 +20,8 @@ const Page = () => {
                 <h2 className="text-xl font-bold">About Me</h2>
               </div>
               <div className="w-[70%]">
-                <p>My journey into the world of data science and consulting began with a curiosity to unravel the complexities of data and transform them into actionable insights. Over the years, I've cultivated a diverse skill set, allowing me to tackle even the most intricate problems with finesse.</p><br />
-                <p>Driven by a relentless pursuit of excellence, I am always eager to take on new challenges and explore uncharted territories. Whether you're looking to unlock the potential of your data or chart a new course for your business, I'm here to help you navigate the journey with confidence and clarity.</p>
+                <p className="font-light">My journey into the world of data science and consulting began with a curiosity to unravel the complexities of data and transform them into actionable insights. Over the years, I've cultivated a diverse skill set, allowing me to tackle even the most intricate problems with finesse.</p><br />
+                <p className="font-light">Driven by a relentless pursuit of excellence, I am always eager to take on new challenges and explore uncharted territories. Whether you're looking to unlock the potential of your data or chart a new course for your business, I'm here to help you navigate the journey with confidence and clarity.</p>
               </div>
             </div>
           </section>
@@ -203,14 +203,9 @@ const Page = () => {
               </div>
               <div className="w-[70%] flex flex-col gap-2">
                 <div className="flex gap-1">
-                  <span>🇬🇧</span>
-                  <span  className="font-medium">English</span>
-                  <p className="font-light text-zinc-800">Native or bilingual proficiency</p>
-                </div>
-                <div className="flex gap-1">
                   <span>🇫🇷</span>
                   <span className="font-medium">French</span>
-                  <p className="font-light text-zinc-800">Elementary proficiency</p>
+                  <p className="font-light text-zinc-800">Mother tongue proficiency</p>
                 </div>
                 <div className="flex gap-1">
                   <span>🇨🇩</span>
@@ -235,14 +230,6 @@ const Page = () => {
                 <div className="flex gap-1">
                   <span className="font-medium">Phone </span>
                   <a href="tel:+243837449954" className="font-light text-zinc-800">+243 837 449 954</a>
-                </div>
-                <div className="flex gap-1">
-                  <span className="font-medium">LinkedIn </span>
-                  <a href="https://linkedin.com/in/jules" className="font-light text-zinc-800">Jules MUKADI</a>
-                </div>
-                <div className="flex gap-1">
-                  <span className="font-medium">GitHub </span>
-                  <a href="https://github.com/2MJ-DEV" className="font-light text-zinc-800">2MJ-DEV</a>
                 </div>
               </div>
             </div>

@@ -5,16 +5,15 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quia aut commodi quod",
     "image": "src/assets/_.jpeg",
     "github": "#",
-    "demo": "#",
+    "demo": "https://coreasofts.vercel.app/",
     "language": "NextJs"
   },
   {
     "id": 2,
-    "title": "Lorem ipsum",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quia aut commodi quod",
-    "image": "src/assets/_.jpeg",
-    "github": "#",
-    "demo": "#",
-    "language": "RasenganJs"
+    "title": "CERCLE SCINETIFIQUE MATH-INFO",
+    "description": "Un site d'une communauté dynamique d’étudiants passionnés par les technologies, l’informatique et le développement.",
+    "image": "https://julesmukadi.me/assets/images/Projects/Cercle-math-info.png",      
+    "demo": "https://cercle-math-info.netlify.app",
+    "language": "HTML5, Tailwindcss"
   }
 ]

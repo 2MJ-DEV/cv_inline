@@ -14,8 +14,8 @@ export default function ProjectCard({ image, logo, title, description, github, d
 
             {/* Content */}
             <div className="p-4">
-                <h2 className="text-lg font-semibold text-gray-800">{title}</h2>
-                <p className="text-sm text-gray-500">{description}</p>
+                <h2 className="text-lg font-semibold text-gray-800 line-clamp-1">{title}</h2>
+                <p className="text-sm text-gray-500 line-clamp-2 font-light">{description}</p>
 
                 {/* Icons */}
                 <div className="flex items-center justify-between gap-4 mt-4">
