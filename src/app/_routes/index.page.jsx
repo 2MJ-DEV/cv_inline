@@ -6,7 +6,40 @@ import projects from "@/data/projects.json";
 import { CalendarDays } from "lucide-react";
 import { Link } from "rasengan";
 
+const metadata = {
+  title: "Jules Mukadi | Frontend Developer React & Next.js",
+  description: "Développeur Frontend freelance spécialisé en React & Tailwind CSS. J’aide entreprises et startups à créer des sites modernes, rapides et bien référencés.",
+  
+  metaTags: [
+    { name: "viewport", content: "width=device-width, initial-scale=1.0" },
+    { name: "robots", content: "index, follow" },
+    { name: "author", content: "Jules MUKADI" },
+    { name: "keywords", content: "Développeur Frontend, React, Rasengan, Next.js, Tailwind CSS, SEO, Freelance Congo, Lubumbashi, RDCongo, DRCongo, DRC, Congo, Afrique, Jules MUKADI" },
+  ],
+
+  links: [
+    { rel: "icon", href: "/favicon.ico" },
+    { rel: "canonical", href: "https://julesmukadi.me/" }
+  ],
+
+  openGraph: {
+    title: "Jules MUKADI - Développeur Web",
+    description: "Je conçois des sites performants et élégants avec HTML5, React, Next.js & Tailwind CSS. Basé à Lubumbashi, disponible en freelance international.",
+    image: "https://julesmukadi.me/preview.jpg",
+    url: "https://julesmukadi.me/",
+    type: "website"
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Jules MUKADI - Développeur Frontend",
+    description: "React, Next.js, Tailwind CSS | Création de sites modernes & SEO-friendly.",
+    image: "https://julesmukadi.me//preview.jpg",
+  },
+};
+
 const Page = () => {
+  
   return (
     <>
       <div className="w-[50%] mx-auto">
